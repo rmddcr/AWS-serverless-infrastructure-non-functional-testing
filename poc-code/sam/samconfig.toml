@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "failiure-injection-tests"
+s3_bucket = "failiure-injection-tests-s3-bucket-1x9u70get5ro9"
+s3_prefix = "failiure-injection-tests"
+region = "us-east-2"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
